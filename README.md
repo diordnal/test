@@ -32,4 +32,4 @@ Information on how to get started can be found at our
 [Build Status - Cirrus]: https://api.cirrus-ci.com/github/flutter/engine.svg?branch=master
 [Build status]: https://cirrus-ci.com/github/flutter/engine
 ```diff
-this will be highlighted in red
+-***注意*** 必须在工程内任何地方导入 import 'package:flutter_svg/flutter_svg.dart'，否则索引不到会导致无法正常生成产物;
